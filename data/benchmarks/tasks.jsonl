@@ -1,0 +1,4 @@
+{"id":"task_001","type":"create_model","input":"Create a monthly revenue mart from the enriched orders model.","expected":"A valid dbt mart with monthly revenue aggregation.","difficulty":"medium"}
+{"id":"task_002","type":"write_tests","input":"Write tests for the staging order model.","expected":"dbt schema tests on key columns.","difficulty":"easy"}
+{"id":"task_003","type":"fix_sql","input":"Fix a broken join between orders and customers.","expected":"Compile-safe SQL with correct refs.","difficulty":"medium"}
+{"id":"task_004","type":"explain_lineage","input":"Explain which downstream models are affected if stg_orders changes.","expected":"A lineage explanation with impact summary.","difficulty":"hard"}

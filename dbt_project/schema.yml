@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Clean customer records"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+      - name: signup_date
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: "Clean order records"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+      - name: order_date
+        tests:
+          - not_null
+
+  - name: stg_payments
+    description: "Clean payment records"
+    columns:
+      - name: payment_id
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        tests:
+          - not_null
+
+  - name: int_orders_enriched
+    description: "Orders joined with customer and payment context"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fct_revenue
+    description: "Monthly revenue fact table"
+    columns:
+      - name: revenue_month
+        tests:
+          - not_null

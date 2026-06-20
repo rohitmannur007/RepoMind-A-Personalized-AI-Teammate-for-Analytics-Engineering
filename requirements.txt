@@ -1,0 +1,10 @@
+streamlit
+pandas
+duckdb
+dbt-core
+dbt-duckdb
+python-dotenv
+pyyaml
+scikit-learn
+pydantic
+pytest

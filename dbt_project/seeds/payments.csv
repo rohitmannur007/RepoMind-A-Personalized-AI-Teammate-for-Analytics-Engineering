@@ -1,0 +1,7 @@
+payment_id,order_id,payment_date,amount,payment_method,payment_status
+P2001,O1001,2026-02-01,2400,UPI,success
+P2002,O1002,2026-02-03,1500,Card,success
+P2003,O1003,2026-02-10,8000,UPI,success
+P2004,O1004,2026-02-14,65000,Card,success
+P2005,O1005,2026-02-17,3000,NetBanking,failed
+P2006,O1006,2026-02-20,1000,UPI,success

@@ -1,0 +1,6 @@
+customer_id,customer_name,signup_date,segment
+C001,Asha,2026-01-02,Retail
+C002,Rahul,2026-01-05,SMB
+C003,Neha,2026-01-08,Enterprise
+C004,Imran,2026-01-12,Retail
+C005,Priya,2026-01-15,SMB

@@ -1,0 +1,19 @@
+{
+  "num_documents": 22,
+  "num_sql_files": 9,
+  "num_yaml_files": 3,
+  "num_refs": 6,
+  "num_ctes": 4,
+  "num_tests": 0,
+  "materializations": [
+    "table",
+    "view"
+  ],
+  "model_names": [
+    "fct_revenue",
+    "int_orders_enriched",
+    "stg_customers",
+    "stg_orders",
+    "stg_payments"
+  ]
+}

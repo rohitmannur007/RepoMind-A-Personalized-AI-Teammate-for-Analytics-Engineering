@@ -1,0 +1,7 @@
+order_id,customer_id,order_date,product,quantity,unit_price,status
+O1001,C001,2026-02-01,Keyboard,2,1200,completed
+O1002,C002,2026-02-03,Mouse,3,500,completed
+O1003,C001,2026-02-10,Monitor,1,8000,completed
+O1004,C003,2026-02-14,Laptop,1,65000,completed
+O1005,C004,2026-02-17,Headset,2,1500,returned
+O1006,C005,2026-02-20,Mousepad,5,200,completed

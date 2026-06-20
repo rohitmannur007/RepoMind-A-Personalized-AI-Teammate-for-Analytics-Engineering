@@ -1,0 +1,8 @@
+dbt_ai_teammate:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH') }}"
+      threads: 4
+      schema: main
